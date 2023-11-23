@@ -32,3 +32,7 @@ class Car{
           }
 
     }
+
+    // creating the instances of each car models 
+    console.log (`Car 1 Details ${car1.honk()}`);
+
