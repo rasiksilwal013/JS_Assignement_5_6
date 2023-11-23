@@ -8,5 +8,11 @@ class Car{
         this.price = price;
         this.gas = gas;
       }
-      
+
+        // honk method to print tuut tuut and car information
+        honk(){
+            console.log('Tuut tuut');
+            console.log(`The brnad name of car : ${this.brand}, Model: ${this.model}, Year:${this.year}, Color: ${this.color} and Price:${this.price}`);
+          }
+
     }
