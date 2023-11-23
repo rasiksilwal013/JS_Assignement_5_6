@@ -15,4 +15,20 @@ class Car{
             console.log(`The brnad name of car : ${this.brand}, Model: ${this.model}, Year:${this.year}, Color: ${this.color} and Price:${this.price}`);
           }
 
+          race(turns){
+            for(let i = 1; i<= turns; i++){
+                let gasLoss = 5;
+    
+                //calculation of gas loss
+    
+                if(this.year !== 2023){
+                    gasLoss += (2023 -this.year)
+                }
+    
+                this.gas -= gasLoss;
+    
+                console.log(`Turn ${i}: ${this.brand} - Gas remaining: ${this.gas} litres`);
+            }
+          }
+
     }
