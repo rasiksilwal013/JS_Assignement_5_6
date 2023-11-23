@@ -45,7 +45,19 @@ const car4 = new Car('Mazda', 'CX-5', 2019, 'White', 15000, 60);
 const car5 = new Car('Audi', 'Q7', 2018, 'Silver', 52000, 47);
 const car6 = new Car('Kia', 'Forte', 2020, 'Blue', 21000, 56);
 
-// invoking honk method
-console.log (`Car 1 Details ${car1.honk()}`);
-   
+// honk method for each class
+car1.honk();
+car2.honk();
+car3.honk();
+car4.honk();
+car5.honk();
+car6.honk();
 
+// invoking race method for each car for the gas loss calculation
+// race for 7 turns
+car1.race(7);
+car2.race(7);
+car3.race(7);
+car4.race(7);
+car5.race(7);
+car6.race(7);
